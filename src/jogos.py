@@ -1,4 +1,5 @@
 import pedra
+import mastemind
 def jogos():
 
     print("\n************ Bem vindo ************\n"
@@ -9,6 +10,8 @@ def jogos():
 
     if (jogo_escolhido == 1):
         pedra.jogar()
+    elif (jogo_escolhido == 2):
+        mastemind.jogar()
 
 if (__name__ == "__main__"):
     jogos()
