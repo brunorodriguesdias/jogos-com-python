@@ -8,12 +8,12 @@ def jogar():
     print("************ Bem vindo ************\n")
     print("*** Tutorial ***\n"
           "*** Tente adivinhar um número entre 1000 e 9999 ***\n"
-          "*** A cada acerto, será liberado a dia do número acertado ***\n"
+          "*** A cada acerto, será liberado a dica do número acertado ***\n"
           "*** Boa sorte ***\n")
 
     while (jogar_novamente == 1):
-        print(numero_secreto)
-        tentativa = int(input("Digite sua tentativa: "))
+
+        tentativa = int(input("\nDigite sua tentativa: "))
         if(tentativa == numero_secreto):
             print("*** Incrível, você acertou o número secreto em apenas 1 tentativa! ***\n")
         else:
