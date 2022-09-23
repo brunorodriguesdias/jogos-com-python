@@ -3,8 +3,10 @@ import jogos
 def jogar():
 
     print("************ Bem vindo ************\n")
-    objeto_adversario = random.randrange(1, 4)
+
     jogar_novamente = 1
+    seus_pontos = 0
+    pontos_adversario = 0
 
     rodada = 1
 
@@ -14,6 +16,7 @@ def jogar():
 
 
     while (jogar_novamente == 1):
+        objeto_adversario = random.randrange(1, 4)
         print("\n*** Escolha a sua opção: ***\n"
               "*** 1 - Pedra ***\n"
               "*** 2 - Papel ***\n"
@@ -40,10 +43,15 @@ def jogar():
 
         if (objeto_jogador == 1 and objeto_adversario == 3 or objeto_jogador == 2 and objeto_adversario == 1 or objeto_jogador == 3 and objeto_adversario == 2):
             print("*** Você venceu ***\n")
+            seus_pontos += 1
+            print("*** Placar: seus pontos {} X {} pontos computador ***".format(seus_pontos, pontos_adversario))
         elif(objeto_jogador == objeto_adversario):
             print("*** Empate ***\n")
+            print("*** Placar: seus pontos {} X {} pontos computador ***".format(seus_pontos, pontos_adversario))
         else:
             print("*** Você perdeu ***\n")
+            pontos_adversario += 1
+            print("*** Placar: seus pontos {} X {} pontos computador ***".format(seus_pontos, pontos_adversario))
 
         jogar_novamente = int(input("Deseja jogar novamente?\n"
                                     "(1)-Sim (2)-Voltar para o menu principal (3)-Encerrar\n"
@@ -53,7 +61,7 @@ def jogar():
             jogar_novamente = int(input("Opção inválida, digite novamente: "))
         elif (jogar_novamente == 2):
             jogos.jogos()
-        else:
+        elif (jogar_novamente == 3):
             print("\n*** Fim de jogo! ***")
 
 
