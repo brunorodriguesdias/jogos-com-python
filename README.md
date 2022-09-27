@@ -17,5 +17,5 @@ O primeiro pedra, papel e tesoura e o segundo jogo mastermind.
 <h2>Como visualziar o projeto</h2>
 Abra o arquivo jogos.py
 Utilizei o pycharm para fazer e rodar o projeto,
-Você pode encontra o programa neste <a href="https://www.jetbrains.com/pt-br/pycharm/download/#section=windows">link</>.
+Você pode encontra o programa neste <a href="https://www.jetbrains.com/pt-br/pycharm/download/#section=windows">link</a>.
 Caso já possua outro interpretador python instalado pode utilizar também ou pode rodar no terminal python também.
