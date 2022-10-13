@@ -8,14 +8,14 @@ Obrigado por conferir este projeto, nele estou buscando treinar lógica de progr
 
 
 <h2>O projeto</h2>
-Neste projeto, estou criando um menu para escolha do jogo desejado, e duas opções de jogos
+Neste projeto, estou criando um menu para escolha do jogo desejado, e duas opções de jogos<br>
 O primeiro pedra, papel e tesoura e o segundo jogo mastermind.
 <img src="https://github.com/brunorodriguesdias/jogos-com-python/blob/master/src/menu.jpg?raw=true">
 <img src="https://github.com/brunorodriguesdias/jogos-com-python/blob/master/src/pedra.jpg?raw=true">
 <img src="https://github.com/brunorodriguesdias/jogos-com-python/blob/master/src/mastermind.jpg?raw=true">
 
 <h2>Como visualizar o projeto</h2>
-Abra o arquivo jogos.py
-Utilizei o pycharm para fazer e rodar o projeto,
-Você pode encontra o programa neste <a href="https://www.jetbrains.com/pt-br/pycharm/download/#section=windows">link</a>.
+Abra o arquivo jogos.py<br>
+Utilizei o pycharm para fazer e rodar o projeto,<br>
+Você pode encontra o programa neste <a href="https://www.jetbrains.com/pt-br/pycharm/download/#section=windows">link</a>.<br>
 Caso já possua outro interpretador python instalado pode utilizar também ou pode rodar no terminal python também.
