@@ -8,8 +8,9 @@ Obrigado por conferir este projeto, nele estou buscando treinar lógica de progr
 
 
 <h2>O projeto</h2>
-Neste projeto, estou criando um menu para escolha do jogo desejado, e duas opções de jogos<br>
+Neste projeto, estou criando um menu para escolha do jogo desejado, e duas opções de jogos
 O primeiro pedra, papel e tesoura e o segundo jogo mastermind.
+O desafio foi treinar lógica de programação e começar a criar funções e organizar o código.
 <img src="https://github.com/brunorodriguesdias/jogos-com-python/blob/master/src/menu.jpg?raw=true">
 <img src="https://github.com/brunorodriguesdias/jogos-com-python/blob/master/src/pedra.jpg?raw=true">
 <img src="https://github.com/brunorodriguesdias/jogos-com-python/blob/master/src/mastermind.jpg?raw=true">
